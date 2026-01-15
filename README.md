@@ -1,4 +1,4 @@
-# ML-ray: Large-Scale Automated Vulnerability Assessment of Public AI Models
+# ML-Ray: Large-Scale Automated Vulnerability Assessment of Public AI Models
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
@@ -594,30 +594,4 @@ ml-ray/
 └── README.md
 ```
 
-## Citation
 
-If you use ML-ray in your research, please cite:
-
-```bibtex
-@inproceedings{mlray2025,
-  title={Models Have Fallen: A Large-Scale Automated Vulnerability Assessment of Public AI Models},
-  author={Anonymous},
-  booktitle={Proceedings of the ACM Conference on Computer and Communications Security (CCS)},
-  year={2025}
-}
-```
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## Acknowledgments
-
-- [Adversarial Robustness Toolbox (ART)](https://github.com/Trusted-AI/adversarial-robustness-toolbox)
-- [Foolbox](https://github.com/bethgelab/foolbox)
-- [CleverHans](https://github.com/cleverhans-lab/cleverhans)
-- [Hugging Face Transformers](https://github.com/huggingface/transformers)
-
-## Contact
-
-For questions or issues, please open a GitHub issue or contact the maintainers.
