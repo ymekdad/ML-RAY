@@ -20,7 +20,6 @@
 - [Configuration](#configuration)
 - [Evaluation Metrics](#evaluation-metrics)
 - [Citation](#citation)
-- [License](#license)
 
 ## Overview
 
@@ -41,37 +40,7 @@ The proliferation of publicly available AI models on platforms like Hugging Face
 | Automated Dependency Resolution | Runtime library detection and conflict handling |
 | Extensible | Modular design for custom attack integration |
 
-## Architecture
 
-ML-ray follows a multi-layered architectural design:
-
-```
-┌─────────────────────────────────────────────────────────────┐
-│                   User Interface (UI) Layer                  │
-│         [Model Selection] [Dataset Selection] [Config]       │
-├─────────────────────────────────────────────────────────────┤
-│                  Security Assessment Layer                   │
-│  ┌─────────────┐ ┌─────────────┐ ┌─────────────────────────┐│
-│  │ ML Security │ │LLM Security │ │ Privacy & Extraction    ││
-│  │   Module    │ │   Module    │ │       Module            ││
-│  └─────────────┘ └─────────────┘ └─────────────────────────┘│
-│  ┌─────────────────────┐ ┌─────────────────────────────────┐│
-│  │Performance Assessment│ │   Vulnerability Reporting      ││
-│  └─────────────────────┘ └─────────────────────────────────┘│
-├─────────────────────────────────────────────────────────────┤
-│                 Model Management Layer                       │
-│      [Model Curation] [Model Deployment] [Model Logging]     │
-├─────────────────────────────────────────────────────────────┤
-│                      Data Layer                              │
-│      [Dataset Storage] [Model Storage] [Logging Storage]     │
-├─────────────────────────────────────────────────────────────┤
-│                     Library Layer                            │
-│   [PyTorch] [TensorFlow] [Keras] [Transformers] [JAX]       │
-├─────────────────────────────────────────────────────────────┤
-│                    Hardware Layer                            │
-│              [GPU Acceleration] [CPU Fallback]               │
-└─────────────────────────────────────────────────────────────┘
-```
 
 ## Installation
 
@@ -85,7 +54,7 @@ ML-ray follows a multi-layered architectural design:
 ### Install from Source
 
 ```bash
-git clone https://github.com/mlray-security/ml-ray.git
+git clone our-anonymous-repo
 cd ml-ray
 pip install -e .
 ```
