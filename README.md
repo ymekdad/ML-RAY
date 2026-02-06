@@ -19,7 +19,7 @@
 - [Usage Examples](#usage-examples)
 - [Configuration](#configuration)
 - [Evaluation Metrics](#evaluation-metrics)
-- [Citation](#citation)
+
 
 ## Overview
 
@@ -495,72 +495,5 @@ storage:
 | OOD AUROC | Area under ROC for OOD detection |
 | OOD AUPR | Area under precision-recall curve |
 | RMS Calibration Error | Root mean squared calibration error |
-
-## Project Structure
-
-```
-ml-ray/
-├── mlray/
-│   ├── __init__.py
-│   ├── core.py                 # Main MLRay class
-│   ├── layers/
-│   │   ├── __init__.py
-│   │   ├── hardware.py         # Hardware Layer
-│   │   ├── library.py          # Library Layer
-│   │   ├── data.py             # Data Layer
-│   │   ├── model_management.py # Model Management Layer
-│   │   ├── security.py         # Security Assessment Layer
-│   │   └── ui.py               # User Interface Layer
-│   ├── modules/
-│   │   ├── __init__.py
-│   │   ├── ml_security.py      # ML Security Assessment Module
-│   │   ├── llm_security.py     # LLM Security Assessment Module
-│   │   ├── privacy.py          # Privacy & Extraction Module
-│   │   ├── performance.py      # Performance Assessment Module
-│   │   └── reporting.py        # Vulnerability Reporting Module
-│   ├── attacks/
-│   │   ├── ml/
-│   │   │   ├── fgsm.py
-│   │   │   ├── pgd.py
-│   │   │   ├── cw.py
-│   │   │   ├── deepfool.py
-│   │   │   ├── lbfgs.py
-│   │   │   └── transfer.py
-│   │   └── llm/
-│   │       ├── prompt_injection.py
-│   │       ├── system_leakage.py
-│   │       ├── misinformation.py
-│   │       └── excessive_agency.py
-│   └── utils/
-│       ├── __init__.py
-│       ├── collectors.py       # Model collectors
-│       ├── preprocessors.py    # Data preprocessing
-│       └── metrics.py          # Evaluation metrics
-├── configs/
-│   ├── attack_config.yaml
-│   ├── collection_config.yaml
-│   └── prompt_templates.json
-├── scripts/
-│   ├── collect_models.py
-│   ├── run_assessment.py
-│   └── generate_reports.py
-├── tests/
-│   ├── test_attacks.py
-│   ├── test_layers.py
-│   └── test_modules.py
-├── docs/
-│   ├── API.md
-│   ├── ATTACKS.md
-│   └── CONFIGURATION.md
-├── examples/
-│   ├── basic_assessment.py
-│   ├── batch_evaluation.py
-│   └── llm_assessment.py
-├── requirements.txt
-├── setup.py
-├── Dockerfile
-├── LICENSE
-└── README.md
-```
 
 
